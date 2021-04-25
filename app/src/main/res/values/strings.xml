@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="score">Your score: </string>
+    <string name="score_number">0</string>
+
+    <!-- All strings regarding question 1 -->
+    <string name="Q1">Question 1</string>
+    <string name="questionOne">Which country is bigger than Canada?</string>
+    <string name="questionOneAnswerOne">USA</string>
+    <string name="questionOneAnswerTwo">Ireland</string>
+    <string name="questionOneAnswerThree">Brazil</string>
+    <string name="questionOneAnswerFour">Russia</string>
+
+    <!-- All strings regarding question 2 -->
+    <string name="Q2">Question 2</string>
+    <string name="questionTwo">Which is the most populated city in Canada?</string>
+    <string name="questionTwoAnswerOne">Vancouver</string>
+    <string name="questionTwoAnswerTwo">Toronto</string>
+    <string name="questionTwoAnswerThree">Saskatoon</string>
+    <string name="questionTwoAnswerFour">Calgary</string>
+
+    <!-- All strings regarding question 3 -->
+    <string name="Q3">Question 3</string>
+    <string name="questionThree">Is Yukon a territory or a province?</string>
+    <string name="questionThreeAnswerOne">Territory</string>
+    <string name="questionThreeAnswerTwo">Province</string>
+
+    <!-- All strings regarding question 4 -->
+    <string name="Q4">Question 4</string>
+    <string name="questionFour">Which city is the capital of Canada?</string>
+    <string name="questionFourAnswerOne">Vancouver</string>
+    <string name="questionFourAnswerTwo">Toronto</string>
+    <string name="questionFourAnswerThree">Ottawa</string>
+    <string name="questionFourAnswerFour">Quebec</string>
+
+    <!-- All strings regarding question 5 -->
+    <string name="Q5">Question 5</string>
+    <string name="questionFive">What is Canada\'s national animal?</string>
+    <string name="questionFiveAnswerOne">Canadian Goose</string>
+    <string name="questionFiveAnswerTwo">Beaver</string>
+    <string name="questionFiveAnswerThree">Elk</string>
+    <string name="questionFiveAnswerFour">Grizzly bear</string>
+
+    <!-- All strings regarding question 6 -->
+    <string name="Q6">Question 6</string>
+    <string name="questionSix">Which of the following sports was invented in Canada?</string>
+    <string name="questionSixAnswerOne">Ice Hockey</string>
+    <string name="questionSixAnswerTwo">Lacrosse</string>
+    <string name="questionSixAnswerThree">Baseball</string>
+    <string name="questionSixAnswerFour">Golf</string>
+
+    <!-- All strings regarding score -->
+    <string name="calculateScore">Calculate score</string>
+    <string name="resetScore">Reset score</string>
+</resources>

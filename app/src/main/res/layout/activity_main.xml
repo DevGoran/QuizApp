@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- Question 1 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV1">
+
+            <TextView
+                android:id="@+id/Q1"
+                style="@style/questionHeader"
+                android:text="@string/Q1" />
+
+            <TextView
+                android:id="@+id/question1"
+                style="@style/question"
+                android:text="@string/questionOne" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupOne"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionOneAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionOneAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionOneAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionOneAnswerTwo" />
+
+                <RadioButton
+                    android:id="@+id/questionOneAnswerThree"
+                    style="@style/answer"
+                    android:text="@string/questionOneAnswerThree" />
+
+                <RadioButton
+                    android:id="@+id/questionOneAnswerFour"
+                    style="@style/answer"
+                    android:text="@string/questionOneAnswerFour" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Question 2 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q2"
+                style="@style/questionHeader"
+                android:text="@string/Q2" />
+
+            <TextView
+                android:id="@+id/question2"
+                style="@style/question"
+                android:text="@string/questionTwo" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupTwo"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionTwoAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionTwoAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionTwoAnswerThree" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoAnswerThree"
+                    style="@style/answer"
+                    android:text="@string/questionTwoAnswerTwo" />
+
+                <RadioButton
+                    android:id="@+id/questionTwoAnswerFour"
+                    style="@style/answer"
+                    android:text="@string/questionTwoAnswerFour" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Question 3 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q3"
+                style="@style/questionHeader"
+                android:text="@string/Q3" />
+
+            <TextView
+                android:id="@+id/question3"
+                style="@style/question"
+                android:text="@string/questionThree" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupThree"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionThreeAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionThreeAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionThreeAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionThreeAnswerTwo" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Question 4 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q4"
+                style="@style/questionHeader"
+                android:text="@string/Q4" />
+
+            <TextView
+                android:id="@+id/question4"
+                style="@style/question"
+                android:text="@string/questionFour" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFour"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionFourAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionFourAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionFourAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionFourAnswerThree" />
+
+                <RadioButton
+                    android:id="@+id/questionFourAnswerThree"
+                    style="@style/answer"
+                    android:text="@string/questionFourAnswerTwo" />
+
+                <RadioButton
+                    android:id="@+id/questionFourAnswerFour"
+                    style="@style/answer"
+                    android:text="@string/questionFourAnswerFour" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Question 5 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q5"
+                style="@style/questionHeader"
+                android:text="@string/Q5" />
+
+            <TextView
+                android:id="@+id/question5"
+                style="@style/question"
+                android:text="@string/questionFive" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFive"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionFiveAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionFiveAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionFiveAnswerThree" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveAnswerThree"
+                    style="@style/answer"
+                    android:text="@string/questionFiveAnswerTwo" />
+
+                <RadioButton
+                    android:id="@+id/questionFiveAnswerFour"
+                    style="@style/answer"
+                    android:text="@string/questionFiveAnswerFour" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Question 6 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q6"
+                style="@style/questionHeader"
+                android:text="@string/Q6" />
+
+            <TextView
+                android:id="@+id/question6"
+                style="@style/question"
+                android:text="@string/questionSix" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupSix"
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/questionSixAnswerOne"
+                    style="@style/answer"
+                    android:text="@string/questionSixAnswerOne" />
+
+                <RadioButton
+                    android:id="@+id/questionSixAnswerTwo"
+                    style="@style/answer"
+                    android:text="@string/questionSixAnswerThree" />
+
+                <RadioButton
+                    android:id="@+id/questionSixAnswerThree"
+                    style="@style/answer"
+                    android:text="@string/questionSixAnswerTwo" />
+
+                <RadioButton
+                    android:id="@+id/questionSixAnswerFour"
+                    style="@style/answer"
+                    android:text="@string/questionSixAnswerFour" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
+        <!-- Score TextViews and buttons to calculate and reset score. -->
+        <TextView
+            style="@style/scoreViews"
+            android:layout_marginTop="48dp"
+            android:text="@string/score" />
+
+        <TextView
+            android:id="@+id/score_number"
+            style="@style/scoreViews"
+            android:layout_marginTop="16dp"
+            android:text="@string/score_number" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="48dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calculateScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculateScore"
+                android:text="@string/calculateScore" />
+
+            <Button
+                android:id="@+id/resetScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:onClick="resetScore"
+                android:text="@string/resetScore" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

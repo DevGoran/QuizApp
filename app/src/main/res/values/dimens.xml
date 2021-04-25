@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginParent">16dp</dimen>
+    <dimen name="marginTop8">8dp</dimen>
+    <dimen name="marginTop16">16dp</dimen>
+    <dimen name="marginTop48">48dp</dimen>
+    <dimen name="partingLineHeight">1dp</dimen>
+    <dimen name="questionLinearLayoutV2MarginTop">24dp</dimen>
+    <dimen name="checkBoxesMarginStart">180dp</dimen>
+    <dimen name="textSize28">28sp</dimen>
+    <dimen name="marginButtonsLinearLayout">60dp</dimen>
+    <dimen name="resetButtonMarginStart">30dp</dimen>
+</resources>

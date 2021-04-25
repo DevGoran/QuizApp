@@ -2,7 +2,8 @@
     <string name="app_name">Quiz App</string>
     <string name="score">Your score: </string>
     <string name="score_number">0</string>
-    <string name="toastMessage">You answered %1$d out of 7 questions correctly!</string>
+    <string name="toastMessage">You answered %1$d out of 8 questions correctly!</string>
+    <string name="EditTextHint">Type your answer here</string>
 
     <!-- All strings regarding question 1 -->
     <string name="Q1">Question 1</string>
@@ -51,12 +52,17 @@
     <string name="questionSixAnswerFour">Golf</string>
 
     <!-- All strings regarding question 7 -->
-    <string name="Q7">Question 6</string>
+    <string name="Q7">Question 7</string>
     <string name="questionSeven">Which provinces or territories are located in Canada?</string>
     <string name="questionSevenAnswerOne">Nunavut</string>
     <string name="questionSevenAnswerTwo">Manitoba</string>
     <string name="questionSevenAnswerThree">Idaho</string>
     <string name="questionSevenAnswerFour">Quebec</string>
+
+    <!-- All strings regarding question 8 -->
+    <string name="Q8">Question 8</string>
+    <string name="questionEight">How do you say \"Hello\" in Inuktitut?</string>
+    <string name="questionEightAnswer">Halu</string>
 
     <!-- All strings regarding score -->
     <string name="calculateScore">Calculate score</string>

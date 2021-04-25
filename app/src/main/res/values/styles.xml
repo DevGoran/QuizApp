@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Question header style. -->
+    <style name="questionHeader" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize28</item>
+    </style>
+
+    <!-- Used for question TextViews. -->
+    <style name="question" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop8</item>
+    </style>
+
+    <!-- Is used for the right two answers of each set. -->
+    <style name="answer" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginTop16</item>
+
+    </style>
+
+    <!-- Question section style for LinearLayout. Is used only for the first question set. -->
+    <style name="questionLinearLayoutV1" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Question section style for LinearLayout. Is used for all but the first question set. -->
+    <style name="questionLinearLayoutV2" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/questionLinearLayoutV2MarginTop</item>
+    </style>
+
+    <!-- Style for the two score TextViews -->
+    <style name="scoreViews" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/textSize28</item>
+    </style>
+
+    <!-- Style for View which is used as a parting line -->
+    <style name="partingLine" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/partingLineHeight</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Style for RadioGroups. -->
+    <style name="radioGroup" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <!-- Style for left positioned CheckBoxes. -->
+    <style name="checkBoxesLeft" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for right positioned CheckBoxes. -->
+    <style name="checkBoxesRight" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/checkBoxesMarginStart</item>
+    </style>
+</resources>

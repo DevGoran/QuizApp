@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/marginParent"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -263,7 +263,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="@dimen/marginTop16">
 
                 <CheckBox
                     android:id="@+id/questionSevenAnswerOne"
@@ -291,24 +291,45 @@
 
         <View style="@style/partingLine" />
 
+        <!-- Question 8 -->
+        <TextView
+            android:id="@+id/Q8"
+            style="@style/questionHeader"
+            android:layout_marginTop="@dimen/questionLinearLayoutV2MarginTop"
+            android:text="@string/Q8" />
+
+        <TextView
+            android:id="@+id/question8"
+            style="@style/question"
+            android:text="@string/questionEight" />
+
+        <EditText
+            android:id="@+id/questionEight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop16"
+            android:hint="@string/EditTextHint"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences" />
+
         <!-- Score TextViews and buttons to calculate and reset score. -->
         <TextView
             style="@style/scoreViews"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="@dimen/marginTop48"
             android:text="@string/score" />
 
         <TextView
             android:id="@+id/score_number"
             style="@style/scoreViews"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/marginTop16"
             android:text="@string/score_number" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="48dp"
-            android:layout_marginBottom="48dp"
+            android:layout_marginTop="@dimen/marginButtonsLinearLayout"
+            android:layout_marginBottom="@dimen/marginButtonsLinearLayout"
             android:orientation="horizontal">
 
             <Button
@@ -322,7 +343,7 @@
                 android:id="@+id/resetScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="@dimen/resetButtonMarginStart"
                 android:onClick="resetScore"
                 android:text="@string/resetScore" />
         </LinearLayout>

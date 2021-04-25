@@ -247,6 +247,50 @@
 
         <View style="@style/partingLine" />
 
+        <!-- Question 7 and answers -->
+        <LinearLayout style="@style/questionLinearLayoutV2">
+
+            <TextView
+                android:id="@+id/Q7"
+                style="@style/questionHeader"
+                android:text="@string/Q7" />
+
+            <TextView
+                android:id="@+id/question7"
+                style="@style/question"
+                android:text="@string/questionSeven" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <CheckBox
+                    android:id="@+id/questionSevenAnswerOne"
+                    style="@style/checkBoxesLeft"
+                    android:text="@string/questionSevenAnswerOne" />
+
+                <CheckBox
+                    android:id="@+id/questionSevenAnswerTwo"
+                    style="@style/checkBoxesLeft"
+                    android:layout_below="@id/questionSevenAnswerOne"
+                    android:text="@string/questionSevenAnswerTwo" />
+
+                <CheckBox
+                    android:id="@+id/questionSevenAnswerThree"
+                    style="@style/checkBoxesRight"
+                    android:text="@string/questionSevenAnswerThree" />
+
+                <CheckBox
+                    android:id="@+id/questionSevenAnswerFour"
+                    style="@style/checkBoxesRight"
+                    android:layout_below="@id/questionSevenAnswerThree"
+                    android:text="@string/questionSevenAnswerFour" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View style="@style/partingLine" />
+
         <!-- Score TextViews and buttons to calculate and reset score. -->
         <TextView
             style="@style/scoreViews"

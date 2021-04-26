@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void questionEight() {
         EditText questionEightProvidedAnswer = findViewById(R.id.questionEight);
-        if (questionEightProvidedAnswer.getText().toString().equals(getString(R.string.questionEightAnswer))) {
+        if (questionEightProvidedAnswer.getText().toString().trim().equalsIgnoreCase(getString(R.string.questionEightAnswer))) {
             scoreQuestionEight = 1;
         } else {
             scoreQuestionEight = 0;
